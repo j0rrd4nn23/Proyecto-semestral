@@ -1,0 +1,15 @@
+IMAGENES // https://www.freepik.es
+
+IDEA LOGIN/ REGISTER //https://www.w3schools.com/bootstrap5/
+
+IDEA FOOTER // 
+
+IDEA NAVBAR // https://www.w3schools.com/bootstrap5/bootstrap_navbar.php
+
+IDEAS CARDS // https://www.youtube.com/watch?v=Kuiv7cCPT-k&t=3s//
+	    //https://www.w3schools.com/bootstrap5/bootstrap_cards.php
+
+IDEA PERFIL-USUARIO // 100% CSS
+IDEA CARRITO-COMPRA // 
+IDEA-SEGUIMIENTO //
+IDEA-PRODUCTOS// https://www.youtube.com/watch?v=Kuiv7cCPT-k&t=3s//

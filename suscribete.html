@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardineria J&M</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/suscribete.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                <img src="images/Logo_Jardineria-del-valles-800px.png" alt="" height="80px">
+            </a>
+
+            <div class = "order-lg-2 nav-btns">
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-shopping-cart"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class="fa fa-solid fa fa-truck"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">1</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-search"></i>
+                </button>
+                <button type = "button" class = "btn position-relative button-nav">
+                    <a class="nav-link" href="perfil.html"><i class="fa fa-solid fa fa-user"></i></a>
+                </button>
+            </div>
+
+            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "logeado.html">Inicio</a>
+                    </li>
+                    <div class="dropdown">
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href = ""type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Productos</a>
+                            <ul class="dropdown-menu">
+                                <li> <button type = "button" class = "btn m-2 text-dark"><a href="productos.html">todos</a></button></li>
+                                <li> <button type = "button" class = "btn m-2 text-dark"><a href="maceteros.html">Maceteros</a></button></li>
+                                <li> <button type = "button" class = "btn m-2 text-dark"><a href="plantas.html">plantas</a></button></li>
+                                <li> <button type = "button" class = "btn m-2 text-dark"><a href="productos.html">Herramientas</a></button></li>
+                                
+                              </ul>
+                        </li>
+                       
+                      </div>
+                    
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#contactanos">Contactenos</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#SobreNosotros">Sobre Nosotros</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#ofertas-especiales">Ofertas Especiales</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2 border-0">
+                            <a class = "nav-link text-uppercase text-dark" href = "#clientes">Clientes</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <div class="contenedor">
+        <div class="titulo">Formulario Suscripcion</div>
+        <div class="contenido">
+          <form action="#">
+            <div class="informacion">
+              <div class="input-box">
+                <span class="detalles">Nombre Completo</span>
+                <input type="text" placeholder="Ingresa tu nombre completo" required>
+              </div>
+              <div class="input-box">
+                <span class="detalles">Apellidos</span>
+                <input type="text" placeholder="Ingresa tu apellido" required>
+              </div>
+              <div class="input-box">
+                <span class="detalles">Correo</span>
+                <input type="text" placeholder="Ingresa tu correo" required>
+              </div>
+              <div class="input-box">
+                <span class="detalles">Numero de telefono</span>
+                <input type="text" placeholder="Ingresa tu numero de telefono" required>
+              </div>
+              <div class="input-box">
+                <span class="detalles">Contraseña</span>
+                <input type="text" placeholder="Ingresa tu contraseña" required>
+              </div>
+              <div class="input-box">
+                <span class="detalles">Contraseña</span>
+                <input type="text" placeholder="Enter your password" required>
+              </div>
+              
+             
+            </div>
+
+
+            <p><hr></p>
+
+            <div class="datos-tarjeta">
+                <span class="titulo">Datos Tarjetas</span>
+                <div class="informacion">
+                <div class="input-box">
+                    
+                    <span class="detalles">Numero Tarjeta</span>
+                    <input type="text" placeholder="1111 2222 3333 4444" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="detalles">fecha Vencimiento</span>
+                    <input type="date" placeholder="Confirm your password" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="detalles">cvv</span>
+                    <input type="text" placeholder="203" required>
+                  </div>
+                </div>
+            </div>
+
+            <p><hr></p>
+
+            <div class="plan-suscripcion">
+                <span class="titulo">Plan de suscripcion</span>
+                <div class="informacion">
+                <div class="input-box">
+                    
+                    <button class="btn btn-danger" ><a href="#" >3 MESES</a></button >
+                </div>
+                  <div class="input-box">
+                    <button class="btn btn-danger" ><a href="#">6 MESES</a></button>
+                  </div>
+                  <div class="input-box">
+                    <button class="btn btn-danger" ><a href="#">12 MESES</a></button>
+                  </div>
+                </div>
+            </div>
+            
+            <p><hr></p>
+
+            <div class="detalles-genero">
+              <input type="radio" name="gender" id="dot-1">
+              <input type="radio" name="gender" id="dot-2">
+              <input type="radio" name="gender" id="dot-3">
+              <span class="titulo-genero">Genero</span>
+              <div class="categoria">
+                <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Masculino</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Femenino</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Otro</span>
+                </label>
+              </div>
+            </div>
+            
+            <div class="button" >
+              <input type="button" value="Pagar" data-bs-toggle="modal" data-bs-target="#myModal" >
+            </div>
+          </form>
+        </div>
+      </div>
+    
+      
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">PAGO REALIZADO CON EXITO</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <img src="images/covid_ticket.png" alt="" >
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button class="btn btn-danger" ><a href="subscrito.html">Close</a></button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+    
+
+    <!-- footer -->
+    <footer id="contactanos">
+        <div class="row">
+
+            <div class="col">
+
+            
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class="fab fa-slack"></i>
+              <span class="logo_name">Jardineria J&M</span>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Empresa</li>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Contactenos</a></li>
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Servicios</li>
+              <li><a href="#">Venta de plantas</a></li>
+              <li><a href="#">Venta de herramientas</a></li>
+              <li><a href="#">Venta de semillas</a></li>
+              <li><a href="#">Servicios extras</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Cuenta</li>
+              <li><a href="#">Perfil</a></li>
+              <li><a href="#">Mi cuenta</a></li>
+              <li><a href="#">Preferencias</a></li>
+              <li><a href="#">Compras</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Importantes</li>
+              <li><a href="#">Terminos</a></li>
+              <li><a href="#">Condiciones</a></li>
+              <li><a href="#">Privacidad</a></li>
+              <li><a href="#">Garantias</a></li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">Jardineria J&M.</a>Todos los derechos reservados</span>
+            <span class="policy_terms">
+              <a href="#">Privacidad politica</a>
+              <a href="#">Terminos y condiciones</a>
+            </span>
+          </div>
+        </div>
+            </div>
+         </div>
+      </footer>
+    <!-- end of footer -->
+
+
+
+
+
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
